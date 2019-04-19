@@ -5,7 +5,7 @@
 const production = {
 
     //服务器端口
-    SERVER_PORT : 3000,
+    SERVER_PORT : 8080,
 
     //REDIS配置
     REDIS: {
@@ -57,6 +57,6 @@ const development = {
 
 }
 
-const config = development
+const config = production
 
 module.exports = config
