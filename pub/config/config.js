@@ -5,7 +5,7 @@
 const production = {
 
     //服务器端口
-    SERVER_PORT : 8080,
+    SERVER_PORT : 80,
 
     //REDIS配置
     REDIS: {
